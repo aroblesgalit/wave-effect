@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.waves {
+    width: 100%;
+    height: 100%;
+}
+
+span {
+    position: absolute;
+    width: 300vh;
+    height: 300vh;
+    top: 0;
+    left: 50%;
+    background-color: #000;
+    transform: translate(-50%, -75%);
+}
+
+span:nth-child(1) {
+
+}
